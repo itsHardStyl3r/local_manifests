@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  * hardStyl3r's TWRP manifest
+  * last update: 14.06.2019
+  * applicable for: android-6.0, twrp-6.0
+  * manifest: github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
+-->
+<manifest>
+  <remote name="github-ssh" fetch="ssh://git@github.com" />
+  <remote name="gitlab-ssh" fetch="ssh://git@gitlab.com" />
+  
+  <remove-project name="android_bootable_recovery" />
+  <project path="bootable/recovery" name="HardStyl3r/android_bootable_recovery" remote="gitlab-ssh" revision="android-9.0" />
+
+  <project path="device/lge/d850" name="HardStyl3r/android_device_lge_d850" remote="gitlab-ssh" revision="twrp-6.0" />
+  <project path="device/lge/d851" name="HardStyl3r/android_device_lge_d851" remote="gitlab-ssh" revision="twrp-6.0" />
+  <project path="device/lge/d852" name="HardStyl3r/android_device_lge_d852" remote="gitlab-ssh" revision="twrp-6.0" />
+  <project path="device/lge/d855" name="HardStyl3r/android_device_lge_d855" remote="gitlab-ssh" revision="twrp-6.0" />
+  <project path="device/lge/f400" name="HardStyl3r/android_device_lge_f400" remote="gitlab-ssh" revision="twrp-6.0" />
+  <project path="device/lge/g3ds" name="HardStyl3r/android_device_lge_g3ds" remote="gitlab-ssh" revision="twrp-6.0" />
+  <project path="device/lge/ls990" name="HardStyl3r/android_device_lge_ls990" remote="gitlab-ssh" revision="twrp-6.0" />
+  <project path="device/lge/vs985" name="HardStyl3r/android_device_lge_vs985" remote="gitlab-ssh" revision="twrp-6.0" />
+  <project path="kernel/lge/g3" name="HardStyl3r/android_kernel_lge_g3" remote="gitlab-ssh" revision="twrp" />
+
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-16.0" />
+</manifest>
