@@ -2,27 +2,25 @@
 
 <!--
   * hardStyl3r's LineageOS manifest
-  * last update: 19.12.2020
+  * last update: 30.12.2020
   * applicable for: R (lineage-18.1)
   * manifest: https://github.com/LineageOS/android
 -->
 <manifest>
 
   <remote  name="hardstyl3r"
-           fetch="https://github.com/itsHardStyl3r/" />
+           fetch="https://github.com/itsHardStyl3r/"
+           revision="lineage-18.1" />
 
-  <default revision="refs/heads/lineage-18.1"
-           remote="hardstyl3r" />
-
-  <project path="device/lge/d850" name="itsHardStyl3r/android_device_lge_d850" />
-  <project path="device/lge/d851" name="HardStyl3r/android_device_lge_d851" />
-  <project path="device/lge/d852" name="HardStyl3r/android_device_lge_d852" />
-  <project path="device/lge/d855" name="HardStyl3r/android_device_lge_d855" />
-  <project path="device/lge/f400" name="HardStyl3r/android_device_lge_f400" />
-  <project path="device/lge/g3-common" name="HardStyl3r/android_device_lge_g3-common" />
-  <project path="device/lge/ls990" name="HardStyl3r/android_device_lge_ls990" />
-  <project path="device/lge/vs985" name="HardStyl3r/android_device_lge_vs985" />
-  <project path="kernel/lge/g3" name="HardStyl3r/android_kernel_lge_g3" />
-  <project path="vendor/lge" name="HardStyl3r/proprietary_vendor_lge" />
+  <project path="device/lge/d850" name="android_device_lge_d850" remote="hardstyl3r" />
+  <project path="device/lge/d851" name="android_device_lge_d851" remote="hardstyl3r" />
+  <project path="device/lge/d852" name="android_device_lge_d852" remote="hardstyl3r" />
+  <project path="device/lge/d855" name="android_device_lge_d855" remote="hardstyl3r" />
+  <project path="device/lge/f400" name="android_device_lge_f400" remote="hardstyl3r" />
+  <project path="device/lge/g3-common" name="android_device_lge_g3-common" remote="hardstyl3r" />
+  <project path="device/lge/ls990" name="android_device_lge_ls990" remote="hardstyl3r" />
+  <project path="device/lge/vs985" name="android_device_lge_vs985" remote="hardstyl3r" />
+  <project path="kernel/lge/g3" name="android_kernel_lge_g3" remote="hardstyl3r" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="hardstyl3r" />
 
 </manifest>
